@@ -1,0 +1,184 @@
+/*
+Theme Name:     Lead Us Down - Brunelleschi Child Theme
+Theme URI:      
+Description:    Child of the Brunelleschi theme 
+Author:         Kenan Davis
+Author URI:     
+Template:       brunelleschi
+Version:        0.1.0
+*/
+ 
+@import url("../brunelleschi/style.css");
+ 
+/* 
+    Override styles from the parent 
+    theme's stylesheet below this comment. 
+*/
+
+#soc-menu {
+	float: right;
+	height: 30px;
+    	margin: 0 12px 0 0;
+    	padding: 0 0;
+}
+
+#soc-menu a {
+	padding: 0 0 0 10px;
+}
+
+#twitter-menu {
+	 background: url("images/twitter_lud.png") no-repeat scroll 0 0 #ffffff;
+    	display: block;
+    	float: left;
+    	height: 30px;
+    	margin: 4px 0;
+    	position: relative;
+    	width: 30px;
+}
+
+#twitter-menu:hover {
+	background-position: 0 -30px;
+}
+
+#facebook-menu {
+	 background: url("images/facebook_lud.png") no-repeat scroll 0 0 #ffffff;
+    	display: block;
+    	float: left;
+    	height: 30px;
+    	margin: 4px 0;
+    	position: relative;
+    	width: 30px;
+}
+
+#facebook-menu:hover {
+	background-position: 0 -30px;
+}
+
+#rss-menu {
+	 background: url("images/rss_lud.png") no-repeat scroll 0 0 #ffffff;
+    	display: block;
+    	float: left;
+    	height: 30px;
+    	margin: 4px 0;
+    	position: relative;
+    	width: 30px;
+}
+
+#rss-menu:hover {
+	background-position: 0 -30px;
+}
+
+#soc-menu a:link {
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition:  all 0s ease-in-out
+    -webkit-tap-highlight-color: #FF5E99;
+    }
+#soc-menu a:hover, a:active {
+    outline: none;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition:  all 0s ease-in-out
+    }
+#soc-menu a, a:active, a:visited {
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition:  all 0s ease-in-out
+    }
+#soc-menu a:hover {
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition:  all 0s ease-in-out
+}
+
+#FA_slider_484 {
+	margin: 0 0 20px 0;
+}
+
+#main.sectionheader {
+	line-height: 0em;
+}
+
+#main h2, #main h1 {
+	margin: 4px 0 10px;
+}
+
+/* links */
+
+a:link {
+	color:#0073AC;
+	text-decoration:none;
+}
+a:visited {
+	color: #0073AC;
+}
+a:active,
+a:hover {
+	text-decoration:underline;
+}
+.entry-title a:link,
+.entry-title a:visited {
+	color: #0073ac;
+    	text-decoration: none;
+}
+
+.entry-title a:active,
+.entry-title a:hover {
+    color: #000;
+}
+
+
+#header {
+    padding: 0px 0 0 0 !important; // was 30px top
+}
+
+
+/* nav links */
+
+#access a:hover {
+	color:#fff;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a {
+    	background: #0073ac; 
+	color: #fff;
+}
+
+.navigation a:active,
+.navigation a:hover {
+	color: #0073ac;
+}
+
+.single .hentry {
+    margin: 0 0 0px 0;
+}
+
+.page-title {
+	font-size: 18px;
+}
+
+#main {
+    //margin-top: 16px;
+}
+
+/* footer */
+
+#site-generator a {
+    background: none;
+    color: #666;
+    display: inline-block;
+    line-height: 16px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+/* posts navigation */
+
+#nav-above {
+    margin: 4px 0 21px;
+}

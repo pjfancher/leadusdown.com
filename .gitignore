@@ -1,0 +1,13 @@
+w3-total-cache-config.php
+db.php
+advanced-cache.php
+object-cache.php
+w3tc-config/
+cache/
+backups/*.gz
+*.log
+*.sw*
+*.lock
+Gruntfile.js
+node_modules/
+package.json
